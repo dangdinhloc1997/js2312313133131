@@ -1,0 +1,55 @@
+* {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.js-color {
+    color: rgb(195, 195, 17);
+} 
+li {
+    list-style: none;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+header {
+    text-align: center;
+}
+header h1 {
+    background-color: rgb(76, 76, 78);
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+    padding: 20px;
+}
+.main h1 {
+    font-size: 36px;
+}
+.main-item {
+    padding: 20px 0;
+}
+.main-item img {
+    width: 500px;
+}
+.main-item h2 {
+    padding: 16px 0;
+    color: rgb(224, 2, 2);
+}
+.main-item h3 {
+    padding: 16px;
+}
+.main-item p {
+    padding: 0 16px 16px 16px;
+    font-weight: bold;
+}
+.main-item ul li {
+    padding: 16px 0;
+}

@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header id="header" class="container">
+        <h1 class="js-color">Javascript basic</h1>
+    </header>
+    <div class="main container">
+        <div class="html-js main-item">
+            <h2>Sử dụng javascript trong HTML</h2>
+            <img src="./img/sc tag.jpg" alt="">
+        </div>
+        <div class="var main-item">
+            <h2>Variable</h2>
+            <img src="./img/variable.png" alt="">
+        </div>
+        <div class="js-comments main-item">
+            <h2>Comment trong javascript</h2>
+            <img src="./img/comments.jpg" alt="">
+        </div>
+        <div class="built-in main-item">
+            <h2>Built-in function</h2>
+            <ul>
+                <li>
+                    <h3>Alert</h3>
+                    <p>Hiển thi hộp thoại cảnh báo khi muốn đảm bảo thông tin đến với người dùng</p>
+                    <img src="./img/alert.jpg" alt="">
+                    <img src="./img/alert2.jpg" alt="">
+                </li>
+                <li>
+                    <h3>Console</h3>
+                    <p>Hiển thị dữ liệu ra tab console</p>
+                    <img src="./img/console.png" alt="">
+                    <img src="./img/console2.jpg" alt="">
+                </li>
+                <li>
+                    <h3>Confirm</h3>
+                    <p>Hiển thi hộp thoại cảnh báo có lựa chọn đến với người dùng</p>
+                    <img src="./img/confirm.png" alt="">
+                    <img src="./img/confirm2.jpg" alt="">
+                </li>
+                <li>
+                    <h3>Prompt</h3>
+                    <p>Hiển thi hộp thoại cảnh báo có lựa chọn và lấy dữ liệu của người dùng</p>
+                    <img src="./img/prompt.png" alt="">
+                    <img src="./img/prompt2.jpg" alt="">
+                </li>
+                <li>
+                    <h3>Set timeout</h3>
+                    <p>Chạy một đoạn code sau một khoảng thời gian (ms)</p>
+                    <img src="./img/settimeout.png" alt="">
+                </li>
+                <li>
+                    <h3>Set interval</h3>
+                    <p>Chạy liên tục một đoạn code sau mỗi một khoảng thời gian (ms)</p>
+                    <img src="./img/setinterval.png" alt="">
+                </li>
+            </ul>
+        </div>
+        <div class="operator main-item">
+            <h2>Operator</h2>
+            <ul>
+                <li>
+                    <h3>Arithmetic - Toán tử số học</h3>
+                    <img src="./img/operator.jpg" alt="">
+                </li>
+                <li>
+                    <h3>Assignment - Toán tử gán</h3>
+                    <img src="./img/operator2.jpg" alt="">
+                </li>
+                <li>
+                    <h3>Comparison - Toán tử so sánh</h3>
+                    <img src="./img/operator3.jpg" alt="">
+                </li>
+                <li>
+                    <h3>Logical - Toán tử logic</h3>
+                    <img src="./img/operator4.png" alt="">
+                </li>
+                <li>
+                    <h3>String operator - Toán tử chuỗi</h3>
+                    <img src="./img/operator5.jpg" alt="">
+                    <img src="./img/operator6.jpg" alt="">
+                </li>
+            </ul>
+        </div>
+        <div class="type main-item">
+            <h2>Data types - Kiểu dữ liệu trong Js</h2>
+            <h3>Primitive Data - Dữ liệu nguyên thủy</h3>
+            <ul>
+                <li><a href="#">Number</a></li>
+                <li><a href="#">String</a></li>
+                <li><a href="#">Boolean</a></li>
+                <li><a href="#">Undefined</a></li>
+                <li><a href="#">Null</a></li>
+                <li><a href="#">Symbol</a></li>
+            </ul>
+            <h3>Complex Data - Dữ liệu phức tạp</h3>
+            <ul>
+                <li><a href="#">Function</a></li>
+                <li><a href="#">Object</a></li>
+            </ul>
+            <h3>Hàm kiểm tra kiểu dữ liệu</h3>
+            <p>typeof (var);</p>
+        </div>
+        <div class="string main-item">
+            <h2>String method - Sử lí chuỗi</h2>
+            <h3>Js string method</h3>
+            <ul>
+                <li>string.length - trả về độ dài của string</li>
+                <li>string.indexOf ('str') - trả về vị trí đầu tiên của str trong string. Trả về -1 nếu không tìm thấy.</li>
+                <li>string.slice (start, end) -  cắt chuỗi từ vị trí start đến end</li>
+                <li>string.replace ('str', 'str replace') - thay thế str = str replace trong string</li>
+                <li>string.toUpperCase() - viết hoa tất cả các chữ trong string</li>
+                <li>string.toLowerCase() - viết thường tất cả các chữ trong string</li>
+                <li>string.trim() - loại bỏ khoảng trắng ở đầu và cuối string</li>
+                <li>string.split ('kí tự tách') - tách chuỗi thành array</li>
+                <li>string.charAt (index) - lấy ra kí tự bởi index cho trước. trường hợp index k đúng trả về 1 string rỗng</li>
+            </ul>
+        </div>
+        <div class="number main-item">
+            <h2>Sử lí number</h2>
+            <h3>Tạo giá trị number</h3>
+            <img src="./img/number.jpg" alt="">
+            <h3>Làm việc với number</h3>
+            <ul>
+                <li>number.toString() - chuyển đổi kiểu number sang string</li>
+                <li>number.toFixed() - làm tròn (tham số truyền vào quyết định số chữ số sau dấu .)</li>
+            </ul>
+        </div>
+        <div class="arr main-item">
+            <h2>Array trong Js</h2>
+            <h3>Tạo mảng</h3>
+            <img src="./img/arr.jpg" alt="">
+            <h3>Array method - Xử lí Array</h3>
+            <ul>
+                <li>arr.length - trả về số element của mảng</li>
+                <li>arr[index] - lấy ra element của mảng theo index </li>
+                <li>arr.toString() -  chuyển từ arr sang string</li>
+                <li>arr.join ('kí tự nối') -  nối các element của arr thành 1 chuỗi. các element đc nối bởi kí tự nối</li>
+                <li>arr.pop() - xóa element cuối mảng và trả về element đã xóa</li>
+                <li>arr.shift() - xóa element ở đầu mảng và trả về element đã xóa</li>
+                <li>arr.push (element,...) - thêm một hoặc nhiều element vào cuối arr và trả về số lượng element của arr sau khi thêm</li>
+                <li>arr.unShift (element,...) - thêm một hoặc nhiều element vào đầu arr và trả về số lượng element cảu arr sau khi thêm </li>
+                <li>arr.splice(start, deleteCount) - xóa deleteCount element từ vị trí start của arr</li>
+                <li>arr.splice(start, 0, element,...) - chèn element vào vị trí sau start</li>
+                <li>arr.splice(start, deleteCount, element,...) - thay element vào vị trí element bị xóa</li>
+                <li>arr.concat(arr2, ...) - nối arr2 và arr thành 1 new arr </li>
+                <li>arr.slice(start, end) - cắt lấy toàn bộ hoặc 1 vài element</li>
+            </ul>
+            <h3>Array method: Phần 2 (Đọc sau khi học function)</h3>
+            <ul>
+                <li>arr.forEach( function(){} ) - Lặp qua từng phần tử của mảng. trả về từng phần tử và index</li>
+                <li>every( function(){} ) - Lặp qua từng phần tử của mảng. trả về từng phần tử và index - kiểm tra tất cả các phần tử có thỏa mãn, trả về true/false.</li>
+                <li>some( function (){} ) - Lặp qua từng phần tử của mảng. trả về từng phần tử và index - kiểm tra , trả về true nếu có 1 phần tử trong mảng thỏa mãn.</li>
+                <li>find( function() {} ) - Lặp qua từng phần tử của mảng. trả về từng phần tử và index - kiểm tra, trả về phần tử thỏa mãn.</li>
+                <li>map() - </li>
+                <li>reduce() - </li>
+            </ul>
+        </div>
+        <div class="func main-item">
+            <h2>Function trong Js</h2>
+            <h3>Phân loại function</h3>
+            <ul>
+                <li>Built-in function</li>
+                <li>Function tự định nghĩa</li>
+            </ul>
+            <h3>Tính chất</h3>
+            <ul>
+                <li>Không thực thi khi định nghĩa</li>
+                <li>Thực thi khi được gọi</li>
+                <li>Có thể nhận tham số</li>
+                <li>Có thể trả về 1 giá trị</li>
+            </ul>
+            <h3>Tạo function và gọi function</h3>
+            <img src="./img/func.jpg" alt="">
+            <h3>Hiểu thêm về function</h3>
+            <ul>
+                <li>Khi function đặt trùng tên? - Nếu 2 function trùng tên. function sau sẽ ghi đèn lên function phía trước</li>
+                <li>Khai báo variable trong function? - Có thể khai báo variable trong function, variable được khai báo trong hàm chỉ được sử dụng trong phạm vi function</li>
+                <li>Định nghĩa function trong function? - Có thể định nghĩa function trong function, function được định nghĩa chỉ đc sử dụng trong hạm vi function</li>
+            </ul>
+            <h3>Các loại function</h3>
+            <ul>
+                <li>Declaration function - function tự định nghĩa</li>
+                <li>Expression function - function không tên (có thể đặt tên). function được gán qua variable hoặc function được truyền dưới dạng tham số, element</li>
+                <li>Arrow function</li>
+            </ul>
+            <img src="./img/func2.jpg" alt="">
+        </div>
+        <div class="params main-item">
+            <h2>Params -  Tham số trong function</h2>
+            <h3>Tham số</h3>
+            <ul>
+                <li>Là một dữ liệu được truyền vào trong hàm</li>
+                <li>Tham số truyền vào có thể thuộc mọi kiểu dữ liệu</li>
+                <li>Private? - Tính riêng tư: Tham số truyền vào 1 hàm chỉ đc sử dụng trong hàm đó</li>
+            </ul>
+            <h3>Truyền tham số</h3>
+            <ul><li><li>Một tham số và nhiều tham số?</li></li></ul>
+            <h3>Arguments</h3>
+            <ul>
+                <li>Đối tượng Arguments</li>
+                <li>Giới thiệu vòng for</li>
+            </ul>
+            <img src="./img/params.jpg" alt="">
+            <img src="./img/params2.jpg" alt="">
+        </div>
+        <div class="return main-item">
+            <h2>Return trong function</h2>
+            <h3>Return - Trả về</h3>
+            <ul>
+                <li>Function có thể return về 1 giá trị</li>
+                <li>Các câu lệnh phía dưới return sẽ được bỏ qua</li>
+            </ul>
+        </div>
+        <div class="polyfill main-item">
+            <h2>Polyfill</h2>
+            <img src="./img/polyfill.jpg" alt="">
+        </div>
+        <div class="object main-item">
+            <h2>Object trong Js</h2>
+            <h3>Khai báo object</h3>
+            <img src="./img/obj.jpg" alt="">
+            <h3>Thêm element mới vào object</h3>
+            <img src="./img/obj2.jpg" alt="">
+            <img src="./img/obj3.jpg" alt="">
+            <h3>Lấy ra hoặc truy cập phần tử trong object</h3>
+            <img src="./img/obj4.jpg" alt="">
+            <img src="./img/obj5.jpg" alt="">
+            <h3>Xóa một cặp key, value trong object</h3>
+            <img src="./img/obj6.jpg" alt="">
+            <img src="./img/obj7.jpg" alt="">
+            <h3>This trong object - this trong object chính là object hiện tại</h3>
+            <img src="./img/obj8.jpg" alt="">
+            <img src="./img/obj9.jpg" alt="">
+            <h3>Lưu ý thêm về object</h3>
+            <ul>
+                <li>Function trong ob -> phương thức/ method</li>
+                <li>Others -> Thuộc tính/ property</li>
+            </ul>
+        </div>
+        <div class="ob-constructor main-item">
+            <h2>Object Constructor</h2>
+            <h3>Định nghĩa một object constructor</h3>
+            <ul>
+                <li>Sử dụng từ khóa function</li>
+                <li>Viết hoa các chữ cái đầu trong name của object constructor</li>
+            </ul>
+            <img src="./img/ob_constr.jpg" alt="">
+            <img src="./img/ob_constr2.jpg" alt="">
+        </div>
+        <div class="ob-prototype main-item">
+            <h2>Object prototype</h2>
+            <ul>
+                <li>Prototype là gì?</li>
+                <li>Prototype sử dụng khi nào</li>
+            </ul>
+            <h3>Chú ý khi sử dụng prototype</h3>
+            <p>Khi thêm phương thức/ thuộc tính vào object constructor bằng prototype các phương thức/ thuộc tính được thêm vào phần prototype</object></p>
+            <img src="./img/ob-prototype.jpg" alt="">
+            <img src="./img/ob-prototype2.jpg" alt="">
+        </div>
+        <div class="date main-item">
+            <h2>Đối tượng Date</h2>
+            <h3>Khởi tạo</h3>
+            <img src="./img/date.jpg" alt="">
+            <img src="./img/date2.jpg" alt="">
+            <h3>Truy xuất đối tượng date</h3>
+            <ul>
+                <li>date.getFullYear() - Lấy ra năm (full năm) </li>
+                <li>date.getMonth - Lấy ra tháng. trả về từ 0 - 11</li>
+                <li>date.getDate - Lấy ra ngày</li>
+                <li>date.getHours() - Lấy ra giờ</li>
+                <li>date.getMinutes() - Lấy ra phút</li>
+                <li>date.getSenconds() -  Lấy ra giây</li>
+                <li>Key word : Javascript Date object moz</li>
+            </ul>
+        </div>
+        <div class="if-else main-item">
+            <h2>Câu lệnh rẽ nhánh if else trong Js</h2>
+            <p>Câu lệnh rẽ nhánh if else tương tự như if else trong C</p>
+            <img src="./img/if-else.jpg" alt="">
+        </div>
+        <div class="switch-case main-item">
+            <h2>Câu lệnh rẽ nhánh switch case trong Js</h2>
+            <p>Câu lệnh rẽ nhánh switch case tương tự như switch case trong C</p>
+            <img src="./img/switch.jpg" alt="">
+        </div>
+        <div class="ternary main-item">
+            <h2>Ternary operator - Toán tử 3 ngôi</h2>
+            <p>Ternary operator được dùng để thay thế câu lệnh if else đơn giản</p>
+            <img src="./img/ternary.jpg" alt="">
+            <img src="./img/ternary2.jpg" alt="">
+        </div>
+        <div class="loop main-item">
+            <h2>Loop - Vòng lặp trong JS</h2>
+            <ul>
+                <li>
+                    <h3>For - tương tự như for trong C</h3>
+                </li>
+                <li>
+                    <h3>For/in - lặp qua key của đối tượng</h3>
+                </li>
+                <li>
+                    <h3>For/of - lặp qua value của đối tượng</h3>
+                </li>
+                <li>
+                    <h3>While - tương tự while trong C</h3>
+                </li>
+                <li>
+                    <h3>Do/while - tương tự do/while trong C</h3>
+                </li>
+            </ul>
+        </div>
+        <div class="math main-item">
+            <h2>Math object trong Js</h2>
+            <ul>
+                <li>Math.PI - trả về số pi</li>
+                <li>Math.round() - làm tròn số</li>
+                <li>Math.abs() - trả về giá trị tuyệt đối </li>
+                <li>Math.ceil() - làm tròn trên</li>
+                <li>Math.floor() - làm tròn dưới </li>
+                <li>Math.random() - trả về 1 số thập phân ngẫu nhiên nhỏ hơn 1 ( 0 - 1 )</li>
+                <li>Math.min() - trả về số nhỏ nhất </li>
+                <li>Math.max() - trả về số lơn nhất </li>
+            </ul>
+        </div>
+        <div class="callback main-item">
+            <h2>Callback function</h2>
+            <h3>Callback?</h3>
+            <ul>
+                <li>Là function được truyền qua đối số</li>
+                <li>Khi gọi hàm khác</li>
+            </ul>
+        </div>
+        <div class="html-dom main-item">
+            <h2>HTML DOM</h2>
+            <h3>HTML DOM gồm 3 thành phần</h3>
+            <ul>
+                <li>Element - các thẻ html</li>
+                <li>Attribute - các thuộc tính của thẻ html</li>
+                <li>Text - các text</li>
+            </ul>
+            <h3>Node</h3>
+            <h2>HTML DOM và DOM API?</h2>
+            <h2>DOM Document Object trong Js</h2>
+            <h2>Element </h2>
+            <h3>Get element method - Phương thức lấy ra element</h3>
+            <ul>
+                <li>document.getElementById('id') - lấy element by id</li>
+                <li>document.getElementsByClassName('class') - lấy element by class</li>
+                <li>document.getElementsByTagName('tag')</li>
+                <li>document.querySelector('CSS Selector') - lấy element by CSS Selector</li>
+                <li>document.querySelectorAll('CSS Selector') - lấy all element by CSS Selector</li>
+            </ul>
+            <h2>Attribute node and text node</h2>
+            <h2>DOM Attribute</h2>
+            <ul>
+                <li>element.setAttribute('attribute', 'value') - Thêm 1 attribute</li>
+                <li>element.attribute = value - set attribute cho element. cac attribute hợp lệ</li>
+            </ul>
+            <h2>InnerText textContent property </h2>
+            <h3>Cách lấy ra text node</h3>
+            <ul>
+                <li>document.innerText -  chỉ lấy ra được những gì bạn có thể thấy trong trình duyệt</li>
+                <li>document.textContent - lấy cả những thành phần ẩn</li>
+            </ul>
+            <h2>InnerHTML property</h2>
+            <h3>innerHTML and outerHTML</h3>
+        </div>
+        <div class="node-properties main-item">
+            <h2>Node-properties</h2>
+        </div>
+        <div class="dom-css main-item">
+            <h2>DOM CSS</h2>
+        </div>
+        <script src="./li_thuyet.js"></script>
+    </div>
+</body>
+</html>
+
+
+
+<form action="" method="post"></form>
